@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiranga</title>
+</head>
+<style>
+    body {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        /* margin-top: 20px; */
+    }
+
+    .full::before {
+        content: "";
+        position: absolute;
+        background: url(india-g3ebfd0089_1920.jpg);
+        top: 0px;
+        left: 0px;
+        /* height: 100%; */
+        height: 645px;
+        width: 100%;
+        z-index: -1;
+        opacity: 0.3;
+    }
+
+    .orange {
+        border-radius: 50px;
+        color: solid orangered;
+        width: 50%;
+        height: 80px;
+    }
+
+    .green {
+        border-radius: 50px;
+        color: solid green;
+        width: 50%;
+        height: 80px;
+    }
+
+    /* .ind h1 {
+            font-size: 30px;
+            font-family: cursive;
+            color: orange;
+        } */
+    .ind img {
+        margin: auto;
+        border-radius: 45px;
+    }
+
+    /*.first h1 {
+        font-size: 42px;
+         color: orangered; 
+        font-style: italic;
+    }
+
+    .second h1 {
+        font-size: 42px;
+         color: white; 
+        font-style: italic;
+    }
+
+    .third h1 {
+        font-size: 42px;
+         color: green;
+        font-style: italic;
+    }   */
+
+    .multicolortext {
+        font-style: italic;
+        font-size: 50px;
+        background-image: linear-gradient(45deg, orangered, white, rgb(3, 250, 3));
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+        color: transparent;
+    }
+
+</style>
+
+
+<body>
+    <div class="full">
+        <div class="ind">
+            <!-- <h1>INDIA</h1> -->
+            <img src="Screenshot 2022-08-15 132638.png" alt="" width="100px" height="100px">
+        </div>
+        <div class="tiranga">
+            <hr color="orange" class="orange" />
+            <img src="ashoka-chakra-png-46973.png" alt="" width="120px" height="90px">
+            <hr color="green" class="green" />
+        </div>
+        <div class="text">
+            <h1><span class="multicolortext">Happy</span></h1>
+            <h1><span class="multicolortext">Independence</span></h1>
+            <h1><span class="multicolortext">Day</span></h1>
+        </div>
+    </div>
+</body>
+
+</html>
